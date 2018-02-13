@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F15CA7DD203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15CA7DC203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp */; };
 		F1CB8E0820313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CB8E0720313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F15CA7DC203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALDS_1_9_B_MAX_HEAP.cpp; sourceTree = "<group>"; };
 		F1CB8E0420313809009B987A /* AizuOnlineJudge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AizuOnlineJudge; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CB8E0720313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALDS_1_9_A_Complete_Binary_Tree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F1CB8E0720313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp */,
+				F15CA7DC203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp */,
 			);
 			path = AizuOnlineJudge;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1CB8E0820313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp in Sources */,
+				F15CA7DD203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
