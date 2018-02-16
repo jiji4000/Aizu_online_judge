@@ -10,6 +10,7 @@
 		F15CA7DD203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15CA7DC203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp */; };
 		F15CA7E02033C7910001939A /* ALDS_1_9_C_PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15CA7DF2033C7910001939A /* ALDS_1_9_C_PriorityQueue.cpp */; };
 		F15CA7E3203522A20001939A /* ALDS_1_10_A_BibonacciNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15CA7E2203522A20001939A /* ALDS_1_10_A_BibonacciNumber.cpp */; };
+		F15CA7E620366EE90001939A /* ALDS_1_11_D_Connected_Components.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15CA7E420366EE90001939A /* ALDS_1_11_D_Connected_Components.cpp */; };
 		F1CB8E0820313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CB8E0720313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		F15CA7DC203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALDS_1_9_B_MAX_HEAP.cpp; sourceTree = "<group>"; };
 		F15CA7DF2033C7910001939A /* ALDS_1_9_C_PriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALDS_1_9_C_PriorityQueue.cpp; sourceTree = "<group>"; };
 		F15CA7E2203522A20001939A /* ALDS_1_10_A_BibonacciNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALDS_1_10_A_BibonacciNumber.cpp; sourceTree = "<group>"; };
+		F15CA7E420366EE90001939A /* ALDS_1_11_D_Connected_Components.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALDS_1_11_D_Connected_Components.cpp; sourceTree = "<group>"; };
 		F1CB8E0420313809009B987A /* AizuOnlineJudge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AizuOnlineJudge; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CB8E0720313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALDS_1_9_A_Complete_Binary_Tree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				F15CA7DC203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp */,
 				F15CA7DF2033C7910001939A /* ALDS_1_9_C_PriorityQueue.cpp */,
 				F15CA7E2203522A20001939A /* ALDS_1_10_A_BibonacciNumber.cpp */,
+				F15CA7E420366EE90001939A /* ALDS_1_11_D_Connected_Components.cpp */,
 			);
 			path = AizuOnlineJudge;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				F1CB8E0820313809009B987A /* ALDS_1_9_A_Complete_Binary_Tree.cpp in Sources */,
 				F15CA7E02033C7910001939A /* ALDS_1_9_C_PriorityQueue.cpp in Sources */,
 				F15CA7E3203522A20001939A /* ALDS_1_10_A_BibonacciNumber.cpp in Sources */,
+				F15CA7E620366EE90001939A /* ALDS_1_11_D_Connected_Components.cpp in Sources */,
 				F15CA7DD203280D60001939A /* ALDS_1_9_B_MAX_HEAP.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
