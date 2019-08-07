@@ -6,7 +6,6 @@
 //  Copyright © 2019 jiji4000. All rights reserved.
 //
 
-#include <stdio.h>
 #include <iostream>
 
 using namespace std;
@@ -41,6 +40,7 @@ void init(){
 void printBoard(){
     for(int i = 0;i < N;++i){
         for(int j = 0;j < N;++j){
+            // 入力時に置かれたクイーンと同じでない場合は出力しない
             if(X[i][j]){
                 if(row[i] != j){
                     return;
@@ -51,6 +51,7 @@ void printBoard(){
     
     for(int i = 0;i < N;++i){
         for(int j = 0;j < N;++j){
+            // rowにqueenの置かれた位置を記録している
             cout << ((row[i] == j) ?  "Q" : ".");
         }
         cout << endl;
@@ -70,13 +71,13 @@ void recursive(int i){
             continue;
         }
         // (i,j)にクイーンを配置する
+        // rowにqueen置かれた位置を記録する、行番号iの何列目にqueenが置かれたのかを示す
         row[i] = j;
         col[j] = dpos[i + j] = dneg[i - j + N - 1] = NOT_FREE;
         // 次の行を試す
         recursive(i + 1);
         // 次の行がダメだった場合(i,j)に配置されたクイーンを取り除く
-        row[i] = j;
-        col[j] = dpos[i + j] = dneg[i - j + N - 1] = FREE;
+        row[i] = col[j] = dpos[i + j] = dneg[i - j + N - 1] = FREE;
     }
     // クイーンの配置に失敗した
 }
