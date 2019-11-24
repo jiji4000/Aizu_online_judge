@@ -20,10 +20,6 @@ int main() {
         maxNum |= 1 << vec[i];
     }
     
-    
-    for(int i = 0;i < n;++i){
-        
-    }
     for(int i = 0;i < (1 << n);++i){
         if(i > maxNum){
             return 0;
