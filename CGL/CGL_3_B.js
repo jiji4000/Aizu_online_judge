@@ -406,10 +406,28 @@ for(var i = 0;i < n;++i){
     var nums = Arr[i].split(" ").map(Number);
     points[i] = new Point2D(nums[0],nums[1]);
 }
+var cross = 0;
+var ans = 1;
 
-var sum = getCross(points[n - 1],points[0]);
-for(var i = 0;i < n - 1;++i){
-	sum += getCross(points[i],points[i + 1]);
+for(var i = 0;i < n;++i){
+    if(i == 0){
+        var vec1 = subtractVector(points[1],points[0]);
+        var vec2 = subtractVector(points[n - 1],points[0]);
+        cross = getCross(vec1,vec2);
+    }
+    else if(i == n - 1){
+        var vec1 = subtractVector(points[0],points[i]);
+        var vec2 = subtractVector(points[i - 1],points[i]);
+        cross = getCross(vec1,vec2);
+    }else{
+        var vec1 = subtractVector(points[i + 1],points[i]);
+        var vec2 = subtractVector(points[i - 1],points[i]);
+        cross = getCross(vec1,vec2);
+    }
+    if(cross < 0){
+        ans = 0;
+        break;
+    }
 }
-sum = Math.abs(sum) / 2;
-console.log(sum.toFixed(1));
+
+console.log(ans);
